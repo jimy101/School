@@ -1,0 +1,165 @@
+#head{
+    font-family: 'Cairo', sans-serif;
+    font-size: 26px;
+    display:flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    background-color: #74c549;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px ;
+}
+
+
+#logo img {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+   
+}
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav input[type=text] {
+    float: left;
+    width: 250px;
+    padding: 10px 10px;
+    border: none;
+    margin: 10px 20px ;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #E8F9FD;
+    
+  }
+  
+  
+ 
+
+#head ul { 
+    
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+#head ul li {
+    position: relative;
+    display: -webkit-inline-box;
+    margin: 10px 10px;
+    padding: 10px 20px 20px;
+    border-radius: 10px;
+    font-size: 28px;
+
+}
+
+#head li a {
+    font-size: 28px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#head li button {
+    font-family: 'Cairo', sans-serif;
+    font-size: 28px;
+    width: 60px;
+    height: 40px;
+    color: #E8F9FD;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+#head li button:hover {
+
+    text-decoration: underline;
+
+}
+
+#head li a:hover {
+
+    text-decoration: underline;
+} 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 20px;
+    left: -40px;
+    top: 72px;
+    background-color: #74c549;
+    width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #79DAE8;
+    color: #001D6E;
+    border-radius: 20px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 20px;
+  }
+
+
+body{
+  background-color: #e3f3db;
+  size: 70%;
+  text-align: center;
+}
+h2{
+  margin-top: 20px;
+}
+img{
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 640px;
+  height: 616px;
+}
+video{
+  margin-top: 30px;
+  border-radius: 20px;
+  
+  height: 616px;
+  text-align: center;
+ 
+ 
+
+}
+  
+#foot{
+  background-color: #74c549;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+  font-size: 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+
+#foot h1{
+  font-weight: bolder;
+  margin-bottom: 10px;
+  
+}
+
+
